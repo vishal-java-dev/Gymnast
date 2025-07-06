@@ -97,6 +97,10 @@ body {
     padding: 0px 12px 0 0;
 }
 
+.page1-ul li a:hover {
+  color: #e51010;
+}
+
 .page1-p {
     color: Red;
     margin-top: 10%;
