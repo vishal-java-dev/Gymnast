@@ -53,31 +53,38 @@ body {
 .logo {
 
     background: linear-gradient(270deg, #e51010, #1d50f7, #ff4800);
-  background-size: 600% 600%;
-  animation: animateGradient 6s ease infinite;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  width: fit-content;
-  font-size: 3rem;
-    
+    background-size: 600% 600%;
+    animation: animateGradient 6s ease infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    width: fit-content;
+    font-size: 3rem;
+
 
     margin: -10% 0 -5% 10%;
     font-weight: bold;
     text-align: center;
-  
+
 }
 
 @keyframes animateGradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .page1-ul {
     display: none;
     list-style: none;
-    /* background: black; */
     margin-left: 50%;
     margin-right: 2%;
     padding-bottom: 1.7%;
@@ -98,7 +105,7 @@ body {
 }
 
 .page1-ul li a:hover {
-  color: #e51010;
+    color: #e51010;
 }
 
 .page1-p {
@@ -118,25 +125,24 @@ body {
 }
 
 .page1-a {
-  text-decoration: none;
-  margin-left: 33%;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 8px;
-  color: white;
-  border: 1px solid white;
-  border-radius: 2px;
-  background-color: transparent;
-  transition: all 0.3s ease;
+    text-decoration: none;
+    margin-left: 33%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    transition: all 0.3s ease;
 }
 
 .page1-a:hover {
-  background-color: red;
-  color: white;
-  border-color: red;
-  cursor: pointer;
+    background-color: red;
+    color: white;
+    border-color: red;
+    cursor: pointer;
 }
-
 
 /*Page1 ends here */
 .red-black {
@@ -433,6 +439,7 @@ body {
 
 .table {
     height: 600px;
+
 }
 
 .table-p {
@@ -807,14 +814,13 @@ table th {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    height: 500px;
-    /* border: 1px solid red; */
+    height: 450px;
 }
 
 .layer-2 {
     width: 100%;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.603);
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.774);
     position: absolute;
 }
 
@@ -863,58 +869,49 @@ table th {
 }
 
 .Quick-links {
-    text-align: center;
     color: red;
-    margin-top: -35%;
-    padding-bottom: 2%;
-    font-size: 20px;
     position: relative;
     z-index: 5;
-    margin-left: 45%;
-
-}
-
-.Quick-home {
-    margin-left: 63%;
-    color: white;
-    font-size: 17px;
-    position: relative;
-    z-index: 5;
+    margin-bottom: 3%;
 }
 
 .Popular-links {
-    text-align: center;
     color: red;
-    margin-left: -60%;
-    margin-top: 5%;
-    padding-bottom: 2%;
+    position: relative;
+    z-index: 5;
+    margin-bottom: 8%;
     font-size: 20px;
-    position: relative;
-    z-index: 5;
-
-}
-
-.Popular-home {
-    margin-left: 10%;
-    color: white;
-    font-size: 17px;
-    position: relative;
-    z-index: 5;
 }
 
 .opening-hours {
-    text-align: center;
     color: red;
-    margin-top: -53%;
-    margin-left: 50%;
-    padding-bottom: 4%;
+    position: relative;
+    z-index: 5;
+    margin-bottom: 8%;
     font-size: 20px;
+}
+
+.Quick-home,
+.Popular-home {
+    color: white;
     position: relative;
     z-index: 5;
 }
 
-.day1 {
-    margin-left: 60%;
+.Links {
+    margin: 5% 0 0 10%;
+}
+
+.timing {
+    margin: -89% 0 0 62%;
+}
+
+.Links-1 {
+    margin: -50% 0 0 60%;
+
+}
+
+.day {
     color: white;
     font-size: 17px;
     position: relative;
@@ -922,7 +919,6 @@ table th {
 }
 
 .time {
-    margin-left: 60%;
     margin-top: 2%;
     color: white;
     font-size: 17px;
@@ -930,15 +926,6 @@ table th {
     z-index: 5;
 }
 
-.day2 {
-    margin-left: 60%;
-    margin-top: 2%;
-    color: white;
-    font-size: 17px;
-    position: relative;
-    z-index: 5;
-
-}
 
 .a {
     border: 1px solid red;
@@ -948,7 +935,7 @@ table th {
     text-decoration: none;
     position: sticky;
     top: 90%;
-    left: 80%;
+    left: 85%;
     background-color: transparent;
     transition: all 0.3s ease;
 }
@@ -964,6 +951,7 @@ table th {
     .page1 {
         height: 430px;
     }
+
     .logo {
         margin-left: 25%;
         margin-top: -7%;
@@ -1472,33 +1460,20 @@ table th {
         margin-left: 8%;
     }
 
-    .Quick-links {
-        position: absolute;
+    .Links {
         margin: -25% 0 0 35%;
-
     }
 
-    .Quick-home {
-        position: absolute;
-        margin: -20% 0 0 35%;
-
+    .Links-1 {
+        margin: -28.3% 0 0 53%;
     }
 
     .Popular-links {
-        position: absolute;
-        margin-left: 54%;
-        margin-top: -37%;
-    }
-
-    .Popular-home {
-        position: absolute;
-        margin-top: -31.5%;
-        margin-left: 54.5%;
+        margin-bottom: 3%;
     }
 
     .timing {
-        margin-top: -49%;
-        margin-left: 35%;
+        margin: -25% 0 0 75%;
     }
 
     .a {
@@ -1525,9 +1500,9 @@ table th {
     }
 
     .logo {
-       margin: 1% 0 0 2%;
+        margin: 1% 0 0 2%;
     }
-    
+
 
     .page1-p {
         margin-top: 10%;
@@ -1906,41 +1881,21 @@ table th {
     }
 
     .Links {
-        margin-top: 5.5%;
-        margin-left: 50%;
+        margin-top: -24%;
     }
 
-    .Quick-links {
-        margin-left: -20%;
-    }
-
-    .Quick-home {
-        margin-left: -20%;
-    }
 
     .Links-1 {
-        margin-top: -38.5%;
-        margin-left: 50%;
+        margin-top: -22%;
     }
 
     .Popular-links {
-        margin-left: 1%;
-        margin-top: 4.5%;
-        margin-bottom: 1.1%;
+        margin-bottom: 4.5%;
     }
 
-    .Popular-home {
-        margin-left: 1%;
-        margin-top: 9.8%;
-    }
 
     .timing {
-        margin-left: 40%;
-        margin-top: 27.5%;
-    }
-
-    .opening-hours {
-        margin-left: 40%;
+        margin-top: -20%;
     }
 
     .a {
@@ -1964,10 +1919,11 @@ table th {
         margin: 0 0 0 40%;
 
     }
+
     .logo {
-       margin: 2% 0 0 2%;
+        margin: 2% 0 0 2%;
     }
-    
+
 
     .page1-p {
         margin-top: 10%;
@@ -2205,6 +2161,7 @@ table th {
         border-radius: 10px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
+
     .page6 {
         border: none;
         width: 100%;
@@ -2321,6 +2278,7 @@ table th {
     .page8-a1-1 {
         margin: 2% 0 0 83%;
     }
+
     .footer {
         height: 330px;
     }
@@ -2331,83 +2289,110 @@ table th {
 
 
     .get-in-touch {
-        margin: 2% 0 -3% -40%;
+        margin: 3% 0 -3% -40%;
+    }
+
+    .contact {
+        margin-left: -15%;
+    }
+
+    .page9-icon {
+        margin-left: 14%;
     }
 
     .Links {
-        margin: 6% 0 0 50%;
-    }
-
-    .Quick-home {
-        margin-left: -20%;
-        margin-top: -22%;
+        margin-top: -18%;
     }
 
     .Links-1 {
-        margin: -36.2% 0 0 50%;
+        margin-top: -16.8%;
     }
 
-    .Popular-home {
-        margin-left: 1%;
-        margin-top: 7.5%;
-    }
 
     .timing {
-        margin-left: 40%;
-        margin-top: 29.5%;
-    }
-
-    .opening-hours {
-        margin-left: 37.8%;
+        margin-top: -15%;
     }
 }
 
 /* ✨ Smooth fade-in for logo and nav */
- .page1-ul li {
-  animation: fadeInTop 1s ease forwards;
-  opacity: 0;
+.page1-ul li {
+    animation: fadeInTop 1s ease forwards;
+    opacity: 0;
 }
 
 .page1-ul li {
-  animation-delay: 0.3s;
+    animation-delay: 0.3s;
 }
 
 /* ✨ Slide-up for call-to-action */
 .page1-a {
-  animation: slideUp 1s ease forwards;
-  animation-delay: 0.5s;
-  opacity: 0;
+    animation: slideUp 1s ease forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
 }
 
 /* ✨ Zoom-in for page titles */
-.page2-h1, .page4-h1, .page5-h1, .page7-h1 {
-  animation: zoomIn 1s ease forwards;
-  opacity: 0;
+.page2-h1,
+.page4-h1,
+.page5-h1,
+.page7-h1 {
+    animation: zoomIn 1s ease forwards;
+    opacity: 0;
 }
 
 /* ✨ Fade-in for paragraphs */
-.page1-p, .page2-p, .page5-p, .page7-p, .page8-p {
-  animation: fadeIn 1.5s ease forwards;
-  opacity: 0;
+.page1-p,
+.page2-p,
+.page5-p,
+.page7-p,
+.page8-p {
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0;
 }
 
 /* ✨ Appear smoothly */
 @keyframes fadeInTop {
-  from { transform: translateY(-30px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes slideUp {
-  from { transform: translateY(40px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 @keyframes zoomIn {
-  from { transform: scale(0.8); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
